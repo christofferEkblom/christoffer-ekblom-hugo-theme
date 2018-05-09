@@ -1,0 +1,5 @@
+<title>{{ with .Site.Title }}{{ . }}{{ else }}en-US{{ end }}</title>
+
+{{ .Hugo.Generator }}
+
+<link rel="stylesheet" href="css/style.css">

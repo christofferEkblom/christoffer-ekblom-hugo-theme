@@ -1,0 +1,17 @@
+<div class="grid-container">
+  <header>
+    {{ partial "header" . }}
+  </header>
+  <nav>
+    {{ partial "nav" . }}
+  </nav>
+  <main>
+    {{ range .Site.Pages }}{{ .Content }}{{ end }}
+  </main>
+  <aside>
+    {{ partial "aside" . }}
+  </aside>
+  <footer>
+    {{ partial "footer" . }}
+  </footer>
+</div>
