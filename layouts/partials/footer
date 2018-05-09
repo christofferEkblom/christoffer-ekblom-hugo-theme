@@ -1,1 +1,1 @@
-fot
+<span id="copyright"><a href="http://www.github.com/christofferEkblom/christoffer-ekblom-hugo-theme">christoffer-ekblom-hugo-theme</a> <a href="https://github.com/christofferEkblom/christoffer-ekblom-hugo-theme/blob/master/LICENSE.md">&copy; {{ dateFormat "2006" now }}</a></span>

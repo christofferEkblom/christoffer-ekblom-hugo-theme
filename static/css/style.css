@@ -1,13 +1,16 @@
 header {
   grid-area: header;
+  text-align: right;
 }
 
 nav {
   grid-area: nav;
+  background: #0a303a;
 }
 
 main {
   grid-area: main;
+  text-align: center;
 }
 
 aside {
@@ -18,15 +21,22 @@ footer {
   grid-area: footer;
 }
 
+#copyright {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header header'
+    'nav header header header header header'
     'nav main main main main aside'
     'nav main main main main aside'
     'nav main main main main aside'
     'nav main main main main aside'
-    'footer footer footer footer footer footer';
+    'nav footer footer footer footer footer';
   width: 100vw;
   height: 100vh;
 }
