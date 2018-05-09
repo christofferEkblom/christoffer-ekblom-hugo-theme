@@ -21,7 +21,12 @@ footer {
 .grid-container {
   display: grid;
   grid-template-areas:
-    'nav header header header header header'
-    'nav main main main aside aside'
-    'nav footer footer footer footer footer';
+    'header header header header header header'
+    'nav main main main main aside'
+    'nav main main main main aside'
+    'nav main main main main aside'
+    'nav main main main main aside'
+    'footer footer footer footer footer footer';
+  width: 100vw;
+  height: 100vh;
 }
