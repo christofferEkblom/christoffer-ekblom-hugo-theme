@@ -1,6 +1,7 @@
 header {
   grid-area: header;
   text-align: right;
+  font-size: 3vw;
 }
 
 nav {

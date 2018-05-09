@@ -1,1 +1,2 @@
-header
+<a href="{{ .Site.Params.Github }}"><span class="fab fa-github"></span></a>
+<a href="{{ .Site.Params.LinkedIn }}"><span class="fab fa-linkedin"></span></a>
